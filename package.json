@@ -1,0 +1,31 @@
+{
+  "name": "ahj-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever ./src/js/server.js",
+    "watch": "forever -w ./src/js/server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-popov/ahj-7.git"
+  },
+  "author": "Igor Popov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-popov/ahj-7/issues"
+  },
+  "homepage": "https://github.com/i-popov/ahj-7#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
